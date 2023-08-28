@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bootstrap Web Page</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+  
+    .navbar {
+      background-color: #fff;
+    }
+  
+    .navbar-brand {
+      font-size: 1.5rem;
+      color: #333;
+      font-weight: bold;
+    }
+  
+    .navbar-nav .nav-link {
+      color: #555;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+  
+    .navbar-nav .nav-link:hover {
+      color: #007bff;
+    }
+  
+    .content-box {
+      border: 2px solid #b0aaaa;
+      padding: 20px;
+      margin-top: 20px;
+      background-color: #fff;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s;
+    }
+  
+    .content-box:hover {
+      background-color: #afacac;
+    }
+  </style>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">API Endpoint</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/history">History</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="content-box">
+          <h2>GET/</h2>
+          <p>Lists all the get endpoint samples you can demo</p>
+          <p>/</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="content-box">
+          <h2>GET /history</h2>
+          <p>Lists the last 20 operations performed on the server</p>
+          <p>/history</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="content-box">
+          <h2>GET/5/plus/3</h2>
+          <p>Perform addition:5+3 (JSON {question:”5+3”,answer: 8})</p>
+          <p>/5/plus/3</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="content-box">
+          <h2>GET/3/minus/5/plus/8</h2>
+          <p>JSON {question:”3-5+8”, answer: 6}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="content-box">
+          <h2>GET/3/into/5/plus/8/into/6</h2>
+          <p>JSON {question:”3*5+8*6”, answer: 63}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
 
