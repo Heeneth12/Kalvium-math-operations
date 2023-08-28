@@ -7,5 +7,7 @@ This Flask application defines a simple web service for performing arithmetic ca
 
 <h1>url calculations it return the data in json formet</h1>
 <img width="410" alt="image" src="https://github.com/Heeneth12/Kalvium-math-operations/assets/114326514/0dd6bf23-3dcd-45d1-9fd9-f69cd3ec7799">
+<img width="419" alt="image" src="https://github.com/Heeneth12/Kalvium-math-operations/assets/114326514/b0345667-3e8b-4094-bc05-054d031584cd">
+
 
 <img width="1437" alt="image" src="https://github.com/Heeneth12/Kalvium-math-operations/assets/114326514/281d8489-0d6d-4bfd-9995-0109e06da8b3">
